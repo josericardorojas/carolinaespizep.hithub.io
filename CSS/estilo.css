@@ -1,0 +1,242 @@
+@import url("../webfonts/LOUIS_GEORGE_CAFE_BOLD__2_/stylesheet.css");
+@import url("../webfonts/NotoSans_Regular/stylesheet.css");
+
+/* CSS Document */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header,nav,main,footer{
+    box-sizing: border-box;
+}
+header{
+    background-color: #6a638c;
+    width: auto;
+    color: white;
+    height: 150px;
+    text-align: center;
+    padding: 0px;
+}
+nav{ 
+    height: auto;
+    background-color: #F8CDE0;
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}   
+main{
+    height: auto;
+    background-color: #D67371;
+    padding: 30px;
+}
+section{
+    background-color: #F8CDE0;
+    color: #000000;
+    margin: 20PX Auto;
+    padding: 10px;
+    border-radius: 10px;
+    height: AUTO;
+
+}
+footer{
+    padding: 20px;
+    background-color: #6A638C;
+    color: white;
+    font-size: 12px;
+    height: 50px;
+    text-align: center;
+}
+.caja_general {
+    width: 60%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    padding: 20px;
+    margin-right: auto;
+    border-radius: 10px;
+}
+h1 {
+    margin: 0px auto;
+    width: 50%;
+    text-align: center;
+    height: 100px;
+    padding-top: 50px;
+}#img_1 {
+    width: 25%;
+    margin: 30px;
+    height: auto;
+    border-left: 8px solid #CC292C;
+    border-right: 5px solid #CC292C;
+    border-bottom: 5px solid #CC292C;
+    border-top: 5px solid #CC292C;
+}
+.imagen_1 {
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+}
+#filte_gray {
+    filter: grayscale(100%);
+}
+#filter_blur {
+    filter: blur(5px);
+}
+#filter_brillo {
+    filter: brightness(100%);
+}
+#filter_contraste {
+    filter: contrast(100%);
+}
+#filter_opacidad {
+    filter: opacity(50%);
+}
+#filter_saturacion {
+    filter: saturate(100%);
+}
+#filter_sepia {
+    filter: sepia(100%);
+}
+nav ul li {
+    display: inline-table;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li a {
+    text-decoration: none;
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FF7285;
+	
+}
+a {
+    color: #FBDCDD;
+}
+a:link{
+    color: #FF33A5;
+        }
+a:visited{
+    color: #FFBBBC;
+        }
+a:hover{
+    color: deeppink;
+    background-color: #E07B7D
+        }
+a:active{
+    color: darksalmon;    
+        }
+#email {
+ 
+}
+body main form {
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: #F0C2C2;
+}
+ 
+input[type=text],input[type=pasword]{
+    width: 30%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 3px solid #FFCBBA;
+    border-radius: 10px;
+    color: #D14949;
+}
+input[type=submit]{
+    width: 10%;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: #6F3A39;
+    color: #FFC2AD;
+    cursor: pointer;
+}
+input[type=text]:focus{
+    background-color: #C5BFC8;
+    border: 2px solid #D81919;
+}
+ 
+input[type=submit]:hover{
+    background-color: #EB6366;
+
+}
+textarea{
+    width: 50%;
+    height: 100px;
+    padding: 12px 20px;
+    color: #D67371;
+    border-radius: 10PX;
+    border: 2px solid #FFC2AD;
+    resize: none;    
+}
+select{
+    width: 30%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #EFEFE9;
+}
+.titulo1 {
+    font-style: normal;
+    font-weight: 400;
+    font-family: abril-fatface;
+    padding: 20px;
+    font-size: 36px;
+}
+.parrrafo1 {
+    font-family: abel;
+    font-style: normal;
+    font-weight: 400;
+    padding: 20px;
+    font-size: 16px;
+}
+.titulo2 {
+    font-family: "LOUIS GEORGE CAFE BOLD (2)";
+    padding: 20px;
+    font-size: 36px;
+}
+.parrafo2 {
+    font-family: "NotoSans Regular";
+    padding: 20px;
+    font-size: 16px;
+}
+.titulo3 {
+    padding: 20px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.parrafo3 {
+    font-family: 'Barlow', sans-serif;
+    padding: 20px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.animate__delay-2s {	
+}
+.animate__slower {	
+}
+
+.animate__flash {
+}
+.animate__dela {
+}
+.titulo4 {
+    font-family: aladin;
+    font-style: normal;
+    padding: 20px;
+    font-weight: 400;
+}
+.parrafo4 {
+    font-family: andika;
+    font-style: normal;
+    font-weight: 400;
+    padding: 20px;
+    font-size: 12px;
+}
+.parrafo1 {
+    padding: 20px;
+}
